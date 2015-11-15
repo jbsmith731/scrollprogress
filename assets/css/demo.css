@@ -21,3 +21,16 @@ p {
   font-family: 'merriweather';
   margin-bottom: 2em;
 }
+
+a.back {
+  position: fixed;
+  top: 15px;
+  left: 10px;
+  font-family: 'ubuntu';
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(0,0,0, 0.4);
+  text-decoration: none;
+}
+
+a.back:hover { color: #F62459;}

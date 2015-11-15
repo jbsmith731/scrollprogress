@@ -8,7 +8,8 @@
     // Set default settings
     var settings = $.extend({
       height: 4,
-      backgroundColor: "rgba(39, 174, 96,.75)",
+      backgroundColor: "#F62459",
+      opacity: 0.75,
       offset: '',
     }, options);
 
@@ -16,6 +17,7 @@
     $('#progress').css({
       height: settings.height,
       'background-color': settings.backgroundColor,
+      opacity: settings.opacity,
       position: 'fixed',
       top: 0,
       left: 0,
