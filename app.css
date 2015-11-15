@@ -1,0 +1,24 @@
+body {
+  color: rgba(0,0,0, .85);
+}
+
+.container {
+  width: 750px;
+  max-width: 94%;
+  margin: 125px auto 100px auto;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: 'ubuntu';
+  margin-bottom: 32px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.9;
+  letter-spacing: .2px;
+  font-family: 'merriweather';
+  margin-bottom: 2em;
+}
+
