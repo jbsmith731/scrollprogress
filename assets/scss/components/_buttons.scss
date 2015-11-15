@@ -1,0 +1,16 @@
+a.btn {
+	display: inline-block;
+	line-height: 40px;
+	background-color: $red;
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	border-radius: 4px;
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+
+	&:hover {
+		background-color: darken($red, 4%);
+	}
+}

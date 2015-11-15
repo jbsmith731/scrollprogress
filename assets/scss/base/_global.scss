@@ -1,0 +1,64 @@
+/* 
+
+-------------------------------------------------------------
+
+GLOBAL
+
+*/
+
+html, body { height:100%; }
+
+body { 
+	padding:0px; 
+	margin:0px; 
+}
+
+body.body-modal-open { overflow:hidden; }
+
+#viewport { 
+	overflow:hidden; 
+	width:100%; 
+}
+
+.container { 
+	margin:auto; 
+	width:1100px; 
+	position:relative; 
+
+	@include breakpoint(large) { 
+		width:900px;
+	}
+	@include breakpoint(medium) {
+		width:700px;
+	}
+	@include breakpoint(small) {
+		width:100%;
+	}
+}
+
+/* general */
+
+img { max-width:100%; }
+
+.borderbox { 
+	box-sizing:border-box; 
+	-webkit-box-sizing:border-box; 
+	-moz-box-sizing:border-box; 
+}
+
+.position-center {
+	position:absolute;
+	bottom:0px;
+	top:0px;
+	right:0px;
+	left:0px;
+	margin:auto;
+}
+
+.hide-ipad {
+	@include breakpoint(medium) { display:none; }
+}
+
+.hide-mobile {
+	@include breakpoint(small) { display:none; }
+}

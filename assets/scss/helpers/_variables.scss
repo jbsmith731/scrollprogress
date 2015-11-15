@@ -1,0 +1,36 @@
+/* 
+
+-------------------------------------------------------------
+
+VARIABLES
+
+*/
+
+// Colors
+$black   : #000000;
+$white   : #ffffff;
+$blue		 : #22313F;
+$red		 : #F62459;
+
+// Font weights
+$light 	 : 100;
+$regular : 300;
+$medium  : 500;
+$bold    : 700;
+
+// Primary Font
+$primary-font-family : 'ubuntu', helvetica, sans-serif;
+$primary-font-weight : $regular;
+$primary-font-size   : 16px;
+$primary-font-color  : $blue;
+$primary-link-color  : $red;
+$primary-line-height : 26px;
+
+// Transitions
+$default-transition-property : all;
+$default-transition-duration : 1s;
+$default-transition-function : false;
+$default-transition-delay    : false;
+
+// Easing
+$easeOutQuint: cubic-bezier(0.230, 1.000, 0.320, 1.000); 

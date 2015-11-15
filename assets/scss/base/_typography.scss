@@ -1,0 +1,42 @@
+/* 
+
+-------------------------------------------------------------
+
+TYPOGRAPHY
+
+*/
+
+body { 
+	font-family:$primary-font-family; 
+	font-weight:$primary-font-weight;
+	font-size:$primary-font-size;
+	color:$primary-font-color;
+	line-height:$primary-line-height;
+}
+
+h1, h2, h3, h4 {
+
+}
+
+h1 {
+	font-size: 3em;
+	margin: 0;
+	line-height: 1.1;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+a {
+	color: $primary-link-color;
+	text-decoration: none;
+}
