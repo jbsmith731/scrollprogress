@@ -12,6 +12,8 @@ body {
 	font-size:$primary-font-size;
 	color:$primary-font-color;
 	line-height:$primary-line-height;
+
+	@include breakpoint(small) { font-size: 15px; }
 }
 
 h1, h2, h3, h4 {
@@ -19,9 +21,11 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.2em;
 	margin: 0;
 	line-height: 1.1;
+
+	@include breakpoint(small) { font-size: 2.5em; }
 }
 
 h2 {
