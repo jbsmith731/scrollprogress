@@ -8,8 +8,8 @@
     // Set default settings
     var settings = $.extend({
       height: 4,
-      backgroundColor: "#F62459",
-      opacity: 0.75,
+      backgroundColor: "rgba(246,36,89, 0.75)",
+      opacity: '',
       offset: '',
     }, options);
 
