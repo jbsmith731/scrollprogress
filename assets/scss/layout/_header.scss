@@ -27,7 +27,7 @@ header {
 		line-height: 70px;
 	}
 
-	.right {
+	.header-right {
 		visibility: hidden;
 		opacity: 0;
 		transform: translateX(40px);
@@ -40,7 +40,7 @@ header.header-fixed {
 	height: 70px;
 	background-color: $blue;
 
-	.right {
+	.header-right {
 		visibility: visible;
 		opacity: 1;
 		transform: translateX(0);
