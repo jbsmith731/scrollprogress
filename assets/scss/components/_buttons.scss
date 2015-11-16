@@ -9,6 +9,7 @@ a.btn {
 	text-align: center;
 	font-size: 12px;
 	text-transform: uppercase;
+	font-weight: 400;
 
 	&:hover {
 		background-color: darken($red, 4%);
