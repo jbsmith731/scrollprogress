@@ -8,16 +8,41 @@ HEADER
 
 header {
 	@extend .borderbox;
-	position: absolute;
-	top: 10px;
+	position: fixed;
+	top: 0px;
 	left: 0;
-	height: 70px;
+	height: 100px;
 	width: 100%;
 	padding: 0 50px;
 	background-color: transparent;
 	color: white;
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	transition: height 0.5s $easeOutQuint;
+	z-index: 9999;
 
 	.logo {
 		line-height: 70px;
+	}
+
+	.right {
+		visibility: hidden;
+		opacity: 0;
+		transform: translateX(40px);
+		transition: all 0.5s $easeOutQuint;
+		transition-delay: 0.5s;
+	}
+}
+
+header.header-fixed {
+	height: 70px;
+	background-color: $blue;
+
+	.right {
+		visibility: visible;
+		opacity: 1;
+		transform: translateX(0);
 	}
 }
