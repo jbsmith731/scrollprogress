@@ -18,7 +18,7 @@ HOME PAGE STYLES
 	text-align:center;
 
 	.content {
-		transform: scale(0.5);
+		transform: scale(0.6);
 		// transform: translateY(-50px);
 		opacity: 0;
 		transition: transform 1s $easeOutQuint, opacity 1s $easeOutQuint;
