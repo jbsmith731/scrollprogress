@@ -59,7 +59,7 @@ $gray: rgba(black, 0.2);
 		background-color: rgba($red, 0.75);
 		z-index: 99;
 		transition: width 3s $easeOutQuint;
-		transition-delay: 1s;
+		transition-delay: 0.6s;
 	}
 
 	.browser-content {
@@ -71,7 +71,7 @@ $gray: rgba(black, 0.2);
 		height: 445px;
 		margin: auto;
 		transition: top 3s $easeOutQuint;
-		transition-delay: 1s;
+		transition-delay: 0.6s;
 		z-index: 1;
 
 		.heading {
