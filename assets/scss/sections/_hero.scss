@@ -18,10 +18,10 @@ HOME PAGE STYLES
 	text-align:center;
 
 	.content {
-		//transform: scale(0);
-		transform: translateY(-80px);
+		transform: scale(0.5);
+		// transform: translateY(-50px);
 		opacity: 0;
-		transition: all 0.5s ease;
+		transition: transform 1s $easeOutQuint, opacity 1s $easeOutQuint;
 		max-width: 90%;
 		position: relative;
 
@@ -54,8 +54,8 @@ HOME PAGE STYLES
 
 .animate-in .hero {
 	.content {
-		//transform: scale(1);
-		transform: translateY(0);
+		transform: scale(1);
+		// transform: translateY(0);
 		opacity: 1;
 	}
 }
