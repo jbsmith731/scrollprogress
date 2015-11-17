@@ -26,6 +26,7 @@ $('body.single').scrollProgress();
 - opacity: number
 - offset: number
 
+Example:
 ```javascript
 $('body').scrollProgress({
   height: 4,
