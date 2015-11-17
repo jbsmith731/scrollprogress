@@ -13,6 +13,6 @@ a.btn {
 	transition: background-color 0.35s $easeInOutCubic;
 
 	&:hover {
-		background-color: darken($red, 5%);
+		background-color: darken($red, 12%);
 	}
 }
