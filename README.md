@@ -23,8 +23,10 @@ $('body.single').scrollProgress();
 ### Options
 - height: number
 - backgroundColor: string
-- opacity: number
+- opacity: number*
 - offset: number
+
+*It is recommended to use rgba values instead of opacity
 
 Example:
 ```javascript
