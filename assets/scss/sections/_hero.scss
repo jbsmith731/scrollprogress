@@ -9,8 +9,8 @@ HOME PAGE STYLES
 .hero {
 	background-color: $blue;
 	color: white;
-	height: 600px;
-	height: 100vh;
+	height: 100%;
+	min-height: 100vh;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
