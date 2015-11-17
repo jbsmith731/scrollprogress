@@ -31,6 +31,9 @@ a.back {
   font-size: 15px;
   color: rgba(0,0,0, 0.4);
   text-decoration: none;
+  -webkit-transition: background-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  -moz-transition: background-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  transition: background-color 0.35s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 a.back:hover { color: #F62459;}

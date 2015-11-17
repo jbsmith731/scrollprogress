@@ -10,6 +10,7 @@ a.btn {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: 400;
+	transition: background-color 0.35s $easeInOutCubic;
 
 	&:hover {
 		background-color: darken($red, 5%);
