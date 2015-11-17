@@ -34,3 +34,5 @@ $default-transition-delay    : false;
 
 // Easing
 $easeOutQuint: cubic-bezier(0.230, 1.000, 0.320, 1.000); 
+$easeOutCubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+$easeInOutCubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
