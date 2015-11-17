@@ -14,7 +14,7 @@
     $('body').prepend('<div id="progress"></div>');
 
     // Set default CSS options
-    $('head').append('<style type="text/css">#progress { height:' + settings.height + 'px; background-color:' + settings.backgroundColor + ';' + (settings.opacity != null ? 'opacity:' + settings.opacity + ';': '') + ' position: fixed; top: 0; left: 0 } </style>');
+    $('head').append('<style type="text/css">#progress { height:' + settings.height + 'px; background-color:' + settings.backgroundColor + ';' + (settings.opacity != null ? 'opacity:' + settings.opacity + ';': '') + ' position: fixed; top: 0; left: 0; z-index:9999; } </style>');
 
     // Scroll function
     $(window).on('load scroll resize', function() {
